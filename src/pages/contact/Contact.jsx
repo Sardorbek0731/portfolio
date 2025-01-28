@@ -2,7 +2,7 @@
 import "./Contact.css";
 
 function Contact() {
-  return <div>Contact</div>;
+  return <section>Contact</section>;
 }
 
 export default Contact;
