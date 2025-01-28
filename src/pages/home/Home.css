@@ -1,0 +1,13 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.myImage {
+  width: 11rem;
+  height: 11rem;
+  object-fit: cover;
+  border-radius: 50%;
+}

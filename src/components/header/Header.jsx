@@ -1,29 +1,20 @@
 // CSS
 import "./Header.css";
 
+// React Router DOM
+import { NavLink } from "react-router-dom";
+
 function Header() {
   return (
     <header>
-      <nav>
-        <h1 className="myName">S.Olimov</h1>
+      <h1 className="myName">S.Olimov</h1>
 
-        <ul>
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Services</a>
-          </li>
-          <li>
-            <a href="#">Projects</a>
-          </li>
-          <li>
-            <a href="#">Contacts</a>
-          </li>
-        </ul>
+      <nav>
+        <NavLink to="/">Home</NavLink>
+        <NavLink to="/about">About</NavLink>
+        <NavLink to="/services">Services</NavLink>
+        <NavLink to="/projects">Projects</NavLink>
+        <NavLink to="/contact">Contact</NavLink>
       </nav>
     </header>
   );
