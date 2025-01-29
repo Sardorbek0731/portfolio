@@ -2,21 +2,22 @@ header {
   padding: 3rem 0;
 }
 
+/* Logo */
 .logo {
-  display: flex;
   align-items: center;
 }
 .logo img {
   width: auto;
-  height: 1.8rem;
+  height: 1.6rem;
 }
 .logo h1 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 1;
   font-family: "Pacifico", serif;
   color: black;
 }
 
+/* Navbar */
 nav {
   display: flex;
   align-items: center;
@@ -24,7 +25,7 @@ nav {
 
 nav a {
   color: black;
-  font-size: 1.1rem;
+  font-size: 1.07rem;
   margin-right: 2rem;
   transition: all 0.3s;
 }
@@ -35,18 +36,58 @@ nav a:hover {
   color: #5f0ed8;
 }
 
+/* Contact Me */
 .phone {
-  display: flex;
   align-items: center;
   padding-left: 2rem;
   border-left: 1px dashed #5f0ed8;
 }
 .phone img {
-  width: 1.3rem;
+  width: 1.25rem;
   height: auto;
 }
 .phone h1 {
-  font-size: 1.1rem;
+  font-size: 1.07rem;
   font-weight: 400;
   margin-left: 0.5rem;
+}
+.phone:hover {
+  color: black;
+}
+
+/* Hire Me */
+.hireMe {
+  align-items: center;
+  padding-left: 2rem;
+  border-left: 1px dashed #5f0ed8;
+}
+.hireMe h1 {
+  font-size: 1.07rem;
+  font-weight: 400;
+  margin-right: 0.5rem;
+}
+.hireMe img {
+  width: 1.25rem;
+  height: auto;
+  transform: rotate(-45deg);
+}
+
+/* Dark or Light Mode */
+.modeBtn {
+  align-items: center;
+  justify-content: center;
+  width: 2.7rem;
+  height: 2.7rem;
+  background-color: black;
+  border-radius: 0.7rem;
+  cursor: pointer;
+}
+.lightMode {
+  background-color: transparent;
+  border: 2px solid white;
+}
+
+.modeBtn img {
+  width: 1.2rem;
+  height: auto;
 }

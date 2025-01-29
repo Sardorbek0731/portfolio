@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   font-family: "Roboto", serif;
 }
 
@@ -31,5 +31,13 @@ li {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 12rem;
+  padding: 0 10rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.flex {
+  display: flex;
 }
