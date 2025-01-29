@@ -8,7 +8,6 @@ import { NavLink } from "react-router-dom";
 import navbarLogo from "../../assets/logos/navbar-logo.png";
 
 // Icons
-import headphone from "../../assets/icons/header/headphone.png";
 import rightArrow from "../../assets/icons/header/right-arrow.png";
 import darkMode from "../../assets/icons/header/dark-mode.png";
 import lightMode from "../../assets/icons/header/light-mode.png";
@@ -29,11 +28,6 @@ function Header() {
           <NavLink to="/projects">Projects</NavLink>
           <NavLink to="/contact">Contact</NavLink>
 
-          <a href="tel: +998915723949" className="phone flex">
-            <img src={headphone} alt="Headphone Icon" />
-            <h1>+998-(94)-117-3949</h1>
-          </a>
-
           <a
             href="https://t.me/Sardorbek0731"
             className="hireMe flex"
@@ -44,13 +38,17 @@ function Header() {
           </a>
         </nav>
 
-        <div className="mode">
-          <div className="darkMode modeBtn flex">
-            <img src={darkMode} alt="Dark Mode Icon" />
+        <div className="headerBtns flex">
+          <div className="mode">
+            <div className="darkMode modeBtn flex">
+              <img src={darkMode} alt="Dark Mode Icon" />
+            </div>
+            <div className="lightMode modeBtn hidden">
+              <img src={lightMode} alt="Light Mode Icon" />
+            </div>
           </div>
-          <div className="lightMode modeBtn hidden">
-            <img src={lightMode} alt="Light Mode Icon" />
-          </div>
+
+          <span className="downloadCV flex">Download CV</span>
         </div>
       </div>
     </header>
