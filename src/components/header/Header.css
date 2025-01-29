@@ -1,34 +1,52 @@
 header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  width: 20%;
-  border-right: 1px dashed rgba(0, 0, 0, 0.1);
-  padding: 2.8rem 2rem;
+  padding: 3rem 0;
 }
 
-.myName {
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: auto;
+  height: 1.8rem;
+}
+.logo h1 {
   font-size: 2rem;
   line-height: 1;
   font-family: "Pacifico", serif;
-  margin-bottom: 5.6rem;
-  padding-left: 1.2rem;
+  color: black;
 }
 
 nav {
   display: flex;
-  flex-direction: column;
+  align-items: center;
 }
 
 nav a {
-  padding: 1.2rem;
-  transition: all 0.3s;
-  border-radius: 0.5rem;
   color: black;
   font-size: 1.1rem;
-  line-height: 1;
+  margin-right: 2rem;
+  transition: all 0.3s;
+}
+nav a:last-child {
+  margin-right: 0;
 }
 nav a:hover {
-  background-color: rgb(248, 248, 248);
+  color: #5f0ed8;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  border-left: 1px dashed #5f0ed8;
+}
+.phone img {
+  width: 1.3rem;
+  height: auto;
+}
+.phone h1 {
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-left: 0.5rem;
 }

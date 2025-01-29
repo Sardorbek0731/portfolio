@@ -26,11 +26,10 @@ li {
   list-style: none;
 }
 
-main {
+/* Global CSS Codes */
+.container {
   display: flex;
-  justify-content: flex-end;
-}
-
-section {
-  width: 80%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12rem;
 }

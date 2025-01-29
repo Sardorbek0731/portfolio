@@ -2,7 +2,13 @@
 import "./Contact.css";
 
 function Contact() {
-  return <section>Contact</section>;
+  return (
+    <section>
+      <div className="contact">
+        <h1>Contact</h1>
+      </div>
+    </section>
+  );
 }
 
 export default Contact;
