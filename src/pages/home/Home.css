@@ -8,12 +8,12 @@
 }
 .homeTitle h3 {
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-family: "Poppins", serif;
 }
 .homeTitle h2 {
   font-size: 2rem;
-  margin: 1rem 0;
+  margin: 0.5rem 0 1.2rem 0;
   font-family: "Poppins", serif;
   font-weight: 500;
 }
@@ -25,12 +25,50 @@
   font-size: 2.7rem;
   font-family: "Poppins", serif;
   font-weight: 600;
-  margin-bottom: 1rem;
+  margin-bottom: 1.2rem;
+}
+.primaryColor {
+  color: #4e1ade;
 }
 .homeTitle p {
-  font-family: 1.07rem;
-  font-family: "Poppins", serif;
-  line-height: 1.4;
-  font-weight: 400;
+  font-size: 1.1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 450;
   color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 3rem;
+}
+
+.socialNetworks a {
+  margin-right: 0.7rem;
+}
+.socialNetworks a:last-child {
+  margin-right: 0;
+}
+.socialNetworks img {
+  width: 1.7rem;
+  height: auto;
+  transition: all 0.8s;
+}
+.socialNetworks img:hover {
+  transform: rotate(360deg);
+}
+
+.bgBlurs div {
+  position: absolute;
+  width: 30rem;
+  height: 30rem;
+  background: radial-gradient(circle, #6471ff 0%, rgba(255, 255, 255, 0) 80%);
+  filter: blur(70px);
+  z-index: -1;
+  border-radius: 50%;
+}
+
+.bgBlur_1 {
+  left: 0;
+  top: 50%;
+}
+
+.bgBlur_2 {
+  right: 0%;
+  top: 0;
 }

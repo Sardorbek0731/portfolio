@@ -1,5 +1,5 @@
 header {
-  padding: 3rem 0;
+  padding: 3.5rem 0;
 }
 
 /* Navbar */
@@ -39,61 +39,4 @@ nav a.active {
   width: 1.2rem;
   height: auto;
   transform: rotate(-45deg);
-}
-
-/* Header Buttons */
-.headerBtns {
-  align-items: center;
-}
-
-/* Dark or Light Mode */
-.modeBtn {
-  align-items: center;
-  justify-content: center;
-  width: 2.7rem;
-  height: 2.7rem;
-  background-color: black;
-  border-radius: 50%;
-  cursor: pointer;
-  margin-right: 1rem;
-  transition: all 0.3s;
-  user-select: none;
-}
-.modeBtn:hover {
-  box-shadow: 0.5rem 0.5rem 2rem rgba(29, 27, 37, 0.3);
-  transform: translateY(-4px);
-}
-.lightMode {
-  background-color: transparent;
-  border: 2px solid white;
-}
-
-.modeBtn img {
-  width: 1.2rem;
-  height: auto;
-}
-
-/* Download CV */
-.downloadCV {
-  align-items: center;
-  justify-content: center;
-  height: 2.7rem;
-  padding: 0 1.3rem;
-  background-color: transparent;
-  border: 2px solid #4e1ade;
-  border-radius: 1.5rem;
-  cursor: pointer;
-  font-size: 1.07rem;
-  line-height: 1;
-  font-weight: 400;
-  transition: all 0.3s;
-  color: #4e1ade;
-  user-select: none;
-}
-.downloadCV:hover {
-  background-color: #4e1ade;
-  border: 2px solid #4e1ade;
-  color: white;
-  box-shadow: 0.5rem 0.5rem 2rem rgba(29, 27, 37, 0.3);
-  transform: translateY(-4px);
 }

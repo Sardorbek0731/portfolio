@@ -6,8 +6,6 @@ import { NavLink } from "react-router-dom";
 
 // Icons
 import rightArrow from "../../assets/icons/header/right-arrow.png";
-import darkMode from "../../assets/icons/header/dark-mode.png";
-import lightMode from "../../assets/icons/header/light-mode.png";
 
 function Header() {
   return (
@@ -29,19 +27,6 @@ function Header() {
             <img src={rightArrow} alt="Right Arrow Icon" />
           </a>
         </nav>
-
-        <div className="headerBtns flex">
-          <div className="mode">
-            <div className="darkMode modeBtn flex">
-              <img src={darkMode} alt="Dark Mode Icon" />
-            </div>
-            <div className="lightMode modeBtn hidden">
-              <img src={lightMode} alt="Light Mode Icon" />
-            </div>
-          </div>
-
-          <span className="downloadCV flex">Download CV</span>
-        </div>
       </div>
     </header>
   );
