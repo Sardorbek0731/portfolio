@@ -1,6 +1,36 @@
-.myImage {
-  width: 11rem;
-  height: 11rem;
-  object-fit: cover;
-  border-radius: 50%;
+.home {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.homeTitle {
+  width: 45%;
+}
+.homeTitle h3 {
+  font-weight: 500;
+  font-size: 1.5rem;
+  font-family: "Poppins", serif;
+}
+.homeTitle h2 {
+  font-size: 2rem;
+  margin: 1rem 0;
+  font-family: "Poppins", serif;
+  font-weight: 500;
+}
+.myName {
+  color: #4e1ade;
+  font-family: "Pacifico", sans-serif;
+}
+.homeTitle h1 {
+  font-size: 2.7rem;
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.homeTitle p {
+  font-family: 1.07rem;
+  font-family: "Poppins", serif;
+  line-height: 1.4;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.8);
 }

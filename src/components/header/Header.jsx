@@ -4,9 +4,6 @@ import "./Header.css";
 // React Router DOM
 import { NavLink } from "react-router-dom";
 
-// Logo
-import navbarLogo from "../../assets/logos/navbar-logo.png";
-
 // Icons
 import rightArrow from "../../assets/icons/header/right-arrow.png";
 import darkMode from "../../assets/icons/header/dark-mode.png";
@@ -16,11 +13,6 @@ function Header() {
   return (
     <header>
       <div className="container">
-        <NavLink to="/" className="logo flex">
-          <img src={navbarLogo} alt="Navbar Logo" />
-          <h1>. Olimov</h1>
-        </NavLink>
-
         <nav>
           <NavLink to="/">Home</NavLink>
           <NavLink to="/about">About</NavLink>
@@ -29,7 +21,7 @@ function Header() {
           <NavLink to="/contact">Contact</NavLink>
 
           <a
-            href="https://t.me/Sardorbek0731"
+            href="https://www.linkedin.com/in/sardorbek-olimov-b07b3b250/"
             className="hireMe flex"
             target="_blank"
           >
