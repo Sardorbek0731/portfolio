@@ -31,8 +31,9 @@ function Home() {
               functionality. Let’s build something exceptional together!
             </p>
           </div>
-
-          <img className="heroImage" src={heroImage} alt="Hero Image" />
+          <div className="heroImage">
+            <img src={heroImage} alt="Hero Image" />
+          </div>
         </div>
 
         <div className="bgBlurs">
