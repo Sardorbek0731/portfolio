@@ -9,53 +9,30 @@ import instagram from "../../assets/icons/social-networks/instagram.png";
 import facebook from "../../assets/icons/social-networks/facebook.png";
 
 // Images
-import myImage from "../../assets/images/home/myImage.jpg";
+import heroImage from "../../assets/images/home/heroImage.jpg";
 
 function Home() {
   return (
     <section>
-      <div className="home container">
-        <div className="homeTitle">
-          <h3>Hi, 👋</h3>
-          <h2>
-            {"I'm"} <span className="myName">Sardorbek Olimov</span>
-          </h2>
-          <h1>
-            Frontend Developer <span className="primaryColor">&</span> UI/UX
-            Designer
-          </h1>
-          <p>
-            I create sleek, user-friendly, and engaging digital experiences.
-            Every project is a blend of creativity, precision, and
-            functionality. Let’s build something exceptional together!
-          </p>
-
-          <div className="socialNetworks">
-            <a href="https://t.me/Sardorbek0731" target="_blank">
-              <img src={telegram} alt="Telegram Icon" />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/sardorbek-olimov-b07b3b250/"
-              target="_blank"
-            >
-              <img src={linkedin} alt="Linkedin Icon" />
-            </a>
-            <a href="https://github.com/Sardorbek0731" target="_blank">
-              <img src={github} alt="Github Icon" />
-            </a>
-            <a
-              href="https://www.instagram.com/sardorbek0limov/"
-              target="_blank"
-            >
-              <img src={instagram} alt="Instagram Icon" />
-            </a>
-            <a
-              href="https://www.facebook.com/p/Sardorbek-Olimov-61551653099727/"
-              target="_blank"
-            >
-              <img src={facebook} alt="Facebook Icon" />
-            </a>
+      <div className="home flex">
+        <div className="homeItems flex">
+          <div className="homeTitle">
+            <h3>Hi, 👋</h3>
+            <h2>
+              {"I'm"} <span className="primaryText">Sardorbek Olimov</span>
+            </h2>
+            <h1>
+              Frontend Developer <span className="primaryText">&</span> UI/UX
+              Designer
+            </h1>
+            <p>
+              I create sleek, user-friendly, and engaging digital experiences.
+              Every project is a blend of creativity, precision, and
+              functionality. Let’s build something exceptional together!
+            </p>
           </div>
+
+          <img className="heroImage" src={heroImage} alt="Hero Image" />
         </div>
 
         <div className="bgBlurs">
@@ -63,7 +40,29 @@ function Home() {
           <div className="bgBlur_2"></div>
         </div>
 
-        <img className="myImage" src={myImage} alt="Hero Image" />
+        <div className="socialNetworks">
+          <a
+            href="https://www.facebook.com/p/Sardorbek-Olimov-61551653099727/"
+            target="_blank"
+          >
+            <img src={facebook} alt="Facebook Icon" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/sardorbek-olimov-b07b3b250/"
+            target="_blank"
+          >
+            <img src={linkedin} alt="Linkedin Icon" />
+          </a>
+          <a href="https://github.com/Sardorbek0731" target="_blank">
+            <img src={github} alt="Github Icon" />
+          </a>
+          <a href="https://t.me/Sardorbek0731" target="_blank">
+            <img src={telegram} alt="Telegram Icon" />
+          </a>
+          <a href="https://www.instagram.com/sardorbek0limov/" target="_blank">
+            <img src={instagram} alt="Instagram Icon" />
+          </a>
+        </div>
       </div>
     </section>
   );
