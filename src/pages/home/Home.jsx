@@ -6,6 +6,10 @@ import telegram from "../../assets/icons/social-networks/telegram.png";
 import linkedin from "../../assets/icons/social-networks/linkedin.png";
 import github from "../../assets/icons/social-networks/github.png";
 import instagram from "../../assets/icons/social-networks/instagram.png";
+import facebook from "../../assets/icons/social-networks/facebook.png";
+
+// Images
+import myImage from "../../assets/images/home/myImage.jpg";
 
 function Home() {
   return (
@@ -45,12 +49,21 @@ function Home() {
             >
               <img src={instagram} alt="Instagram Icon" />
             </a>
+            <a
+              href="https://www.facebook.com/p/Sardorbek-Olimov-61551653099727/"
+              target="_blank"
+            >
+              <img src={facebook} alt="Facebook Icon" />
+            </a>
           </div>
         </div>
+
         <div className="bgBlurs">
           <div className="bgBlur_1"></div>
           <div className="bgBlur_2"></div>
         </div>
+
+        <img className="myImage" src={myImage} alt="Hero Image" />
       </div>
     </section>
   );
