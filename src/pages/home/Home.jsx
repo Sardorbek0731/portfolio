@@ -2,7 +2,6 @@
 import "./Home.css";
 
 // Icons
-import telegram from "../../assets/icons/social-networks/telegram.png";
 import linkedin from "../../assets/icons/social-networks/linkedin.png";
 import github from "../../assets/icons/social-networks/github.png";
 import instagram from "../../assets/icons/social-networks/instagram.png";
@@ -14,8 +13,8 @@ import heroImage from "../../assets/images/home/heroImage.jpg";
 function Home() {
   return (
     <section>
-      <div className="home flex">
-        <div className="homeItems flex">
+      <div className="home">
+        <div className="home_row flex">
           <div className="homeTitle">
             <h3>Hi, 👋</h3>
             <h2>
@@ -30,15 +29,15 @@ function Home() {
               Every project is a blend of creativity, precision, and
               functionality. Let’s build something exceptional together!
             </p>
+            <div className="homeBtns flex">
+              <span className="letsTalk">{"Let's"} Talk</span>
+              <span className="downloadCV">Download CV</span>
+            </div>
           </div>
+
           <div className="heroImage">
             <img src={heroImage} alt="Hero Image" />
           </div>
-        </div>
-
-        <div className="bgBlurs">
-          <div className="bgBlur_1"></div>
-          <div className="bgBlur_2"></div>
         </div>
 
         <div className="socialNetworks">
@@ -57,13 +56,19 @@ function Home() {
           <a href="https://github.com/Sardorbek0731" target="_blank">
             <img src={github} alt="Github Icon" />
           </a>
-          <a href="https://t.me/Sardorbek0731" target="_blank">
-            <img src={telegram} alt="Telegram Icon" />
-          </a>
           <a href="https://www.instagram.com/sardorbek0limov/" target="_blank">
             <img src={instagram} alt="Instagram Icon" />
           </a>
+        </div>  
+
+        <div className="bgBlurs">
+          <div className="bgBlur_1"></div>
+          <div className="bgBlur_2"></div>
         </div>
+
+        <h1 className="welcome">
+          Welcome
+        </h1>
       </div>
     </section>
   );

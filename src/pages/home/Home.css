@@ -1,14 +1,13 @@
-/* Home */
 .home {
-  height: 100vh;
-  padding: 0 11rem;
-  align-items: center;
+  padding: 15rem 11rem 3.6rem 11rem;
+  overflow: hidden;
+  position: relative;
 }
 
-.homeItems {
-  padding-top: 5rem;
-  width: 100%;
+.home_row {
   justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3.6rem;
 }
 
 /* Home Title */
@@ -49,6 +48,34 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 450;
   color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 2.4rem;
+}
+
+/* Download CV */
+.homeBtns span {
+  padding: 0.8rem 1.4rem;
+  border-radius: 0.9rem;
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.letsTalk {
+  margin-right: 1rem;
+  background-color: black;
+  border: 2px solid black;
+}
+.letsTalk:hover {
+  background-color: white;
+  color: black;
+}
+.downloadCV {
+  background-color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+}
+.downloadCV:hover {
+  background-color: white;
+  color: var(--primary-color);
 }
 
 /* Hero Image */
@@ -58,11 +85,11 @@
 .heroImage::after {
   content: "";
   position: absolute;
-  width: 7rem;
-  height: 7rem;
+  width: 10rem;
+  height: 10rem;
   background-color: rgb(255, 138, 35);
-  left: -1rem;
-  top: -5%;
+  left: -3rem;
+  top: -17%;
   z-index: -1;
   border-radius: 50%;
   animation: shaking-1 infinite 3s;
@@ -83,11 +110,11 @@
   position: absolute;
   width: 0;
   height: 0;
-  border-left: 4rem solid transparent;
-  border-right: 4rem solid transparent;
-  border-bottom: 6rem solid rgb(55, 0, 255);
+  border-left: 5rem solid transparent;
+  border-right: 5rem solid transparent;
+  border-bottom: 7rem solid rgb(55, 0, 255);
   left: 4rem;
-  top: 85%;
+  top: 88%;
   z-index: -1;
   animation: shaking-2 infinite 3s;
 }
@@ -110,10 +137,6 @@
 }
 
 /* Social Networks */
-.socialNetworks {
-  position: absolute;
-  bottom: 3.5rem;
-}
 .socialNetworks a {
   margin-right: 0.75rem;
 }
@@ -121,7 +144,7 @@
   margin-right: 0;
 }
 .socialNetworks img {
-  width: 1.6rem;
+  width: 1.7rem;
   height: auto;
   transition: all 1s;
 }
@@ -132,17 +155,27 @@
 /* Blur Colors */
 .bgBlurs div {
   position: absolute;
-  width: 40rem;
-  height: 40rem;
-  background: radial-gradient(circle, #1e00ffaf 0%, rgba(255, 255, 255, 0) 80%);
-  filter: blur(50px);
+  width: 45rem;
+  height: 45rem;
+  filter: blur(100px);
   z-index: -1;
 }
 .bgBlur_1 {
-  left: 0;
-  bottom: 0;
+  background: radial-gradient(circle, #1e00ffcc 0%, rgba(255, 255, 255, 0) 80%);
+  left: -5%;
+  bottom: -25%;
 }
 .bgBlur_2 {
-  right: 0;
-  top: 0;
+  background: radial-gradient(circle, #ff77168f 0%, rgba(255, 255, 255, 0) 80%);
+  right: -5%;
+  top: -5%;
+}
+
+.welcome {
+  position: absolute;
+  font-size: 8rem;
+  top: 35%;
+  left: 30%;
+  z-index: -2;
+  transform: rotate(-35deg);
 }
