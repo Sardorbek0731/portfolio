@@ -59,16 +59,12 @@ function Home() {
           <a href="https://www.instagram.com/sardorbek0limov/" target="_blank">
             <img src={instagram} alt="Instagram Icon" />
           </a>
-        </div>  
+        </div>
 
         <div className="bgBlurs">
           <div className="bgBlur_1"></div>
           <div className="bgBlur_2"></div>
         </div>
-
-        <h1 className="welcome">
-          Welcome
-        </h1>
       </div>
     </section>
   );

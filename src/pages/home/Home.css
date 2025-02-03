@@ -110,11 +110,11 @@
   position: absolute;
   width: 0;
   height: 0;
-  border-left: 5rem solid transparent;
-  border-right: 5rem solid transparent;
+  border-left: 4.5rem solid transparent;
+  border-right: 4.5rem solid transparent;
   border-bottom: 7rem solid rgb(55, 0, 255);
   left: 4rem;
-  top: 88%;
+  top: 87%;
   z-index: -1;
   animation: shaking-2 infinite 3s;
 }
@@ -134,6 +134,18 @@
   width: 22rem;
   height: auto;
   border-radius: 50%;
+  animation: shaking-img infinite 3s;
+}
+@keyframes shaking-img {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(12px);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 /* Social Networks */
@@ -169,13 +181,4 @@
   background: radial-gradient(circle, #ff77168f 0%, rgba(255, 255, 255, 0) 80%);
   right: -5%;
   top: -5%;
-}
-
-.welcome {
-  position: absolute;
-  font-size: 8rem;
-  top: 35%;
-  left: 30%;
-  z-index: -2;
-  transform: rotate(-35deg);
 }
