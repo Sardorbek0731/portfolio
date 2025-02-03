@@ -45,3 +45,19 @@ nav a.active {
   height: auto;
   transform: rotate(-45deg);
 }
+
+.settingBtn {
+  align-items: center;
+  font-size: 1.1rem;
+  border: 2px solid black;
+  cursor: pointer;
+  background-color: white;
+  padding: 0.8rem 1.1rem;
+  border-radius: 2rem;
+  line-height: 1;
+}
+.settingBtn img {
+  width: 1.1rem;
+  height: auto;
+  margin-right: 0.5rem;
+}

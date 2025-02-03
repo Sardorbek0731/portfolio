@@ -6,6 +6,7 @@ import { NavLink } from "react-router-dom";
 
 // Icons
 import rightArrow from "../../assets/icons/header/right-arrow.png";
+import setting from "../../assets/icons/header/setting.png";
 
 function Header() {
   return (
@@ -27,6 +28,10 @@ function Header() {
             <img src={rightArrow} alt="Right Arrow Icon" />
           </a>
         </nav>
+        <div className="settingBtn flex">
+          <img src={setting} alt="Setting Icon" />
+          Setting
+        </div>
       </div>
     </header>
   );
