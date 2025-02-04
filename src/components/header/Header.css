@@ -48,16 +48,19 @@ nav a.active {
 
 .settingBtn {
   align-items: center;
-  font-size: 1.1rem;
-  border: 2px solid black;
+  justify-content: center;
+  width: 2.9rem;
+  height: 2.9rem;
   cursor: pointer;
-  background-color: white;
-  padding: 0.8rem 1.1rem;
-  border-radius: 2rem;
-  line-height: 1;
+  border-radius: 0.8rem;
+  transition: all 0.3s;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+.settingBtn:hover {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1rem 1rem 3rem rgba(0, 0, 0, 0.12);
 }
 .settingBtn img {
-  width: 1.1rem;
+  width: 1.5rem;
   height: auto;
-  margin-right: 0.5rem;
 }

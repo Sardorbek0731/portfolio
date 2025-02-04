@@ -6,6 +6,10 @@ import linkedin from "../../assets/icons/social-networks/linkedin.png";
 import github from "../../assets/icons/social-networks/github.png";
 import instagram from "../../assets/icons/social-networks/instagram.png";
 import facebook from "../../assets/icons/social-networks/facebook.png";
+import html from "../../assets/icons/languages/html.png";
+import css from "../../assets/icons/languages/css.png";
+import javascript from "../../assets/icons/languages/javascript.png";
+import typescript from "../../assets/icons/languages/typescript.png";
 
 // Images
 import heroImage from "../../assets/images/home/heroImage.jpg";
@@ -30,13 +34,28 @@ function Home() {
               functionality. Let’s build something exceptional together!
             </p>
             <div className="homeBtns flex">
-              <span className="letsTalk">{"Let's"} Talk</span>
-              <span className="downloadCV">Download CV</span>
+              <a
+                href="https://t.me/Sardorbek0731"
+                className="letsTalk"
+                target="_blank"
+              >
+                {"Let's"} Talk
+              </a>
+              <a href="#" className="downloadCV">
+                Download CV
+              </a>
             </div>
           </div>
 
           <div className="heroImage">
             <img src={heroImage} alt="Hero Image" />
+
+            <div className="languages">
+              <img src={html} alt="HTML icon" />
+              <img src={css} alt="CSS icon" />
+              <img src={javascript} alt="JavaScript icon" />
+              <img src={typescript} alt="TypeScript icon" />
+            </div>
           </div>
         </div>
 

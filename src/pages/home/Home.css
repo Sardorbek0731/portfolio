@@ -52,11 +52,11 @@
 }
 
 /* Download CV */
-.homeBtns span {
+.homeBtns a {
   padding: 0.8rem 1.4rem;
-  border-radius: 0.9rem;
+  border-radius: 0.8rem;
   color: white;
-  font-size: 1.1rem;
+  font-size: 1.07rem;
   cursor: pointer;
   transition: all 0.3s;
 }
@@ -146,6 +146,28 @@
   100% {
     transform: translateX(0);
   }
+}
+
+.languages img {
+  position: absolute;
+  width: 4.5rem;
+  height: 4.5rem;
+}
+.languages img:first-child {
+  right: 15%;
+  top: -7%;
+}
+.languages img:nth-child(2) {
+  left: -10%;
+  bottom: 17%;
+}
+.languages img:nth-child(3) {
+  right: 10%;
+  bottom: 0;
+}
+.languages img:nth-child(4) {
+  right: -10%;
+  bottom: 45%;
 }
 
 /* Social Networks */

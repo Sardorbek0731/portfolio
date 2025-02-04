@@ -30,7 +30,6 @@ function Header() {
         </nav>
         <div className="settingBtn flex">
           <img src={setting} alt="Setting Icon" />
-          Setting
         </div>
       </div>
     </header>
