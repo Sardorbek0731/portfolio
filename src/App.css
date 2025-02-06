@@ -5,7 +5,8 @@
 
 /* Global Codes */
 :root {
-  --primary-color: #4e1ade;
+  --primary-color-1: #4e1ade;
+  --primary-color-2: #ff8a23;
   --p-fontFamily: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 

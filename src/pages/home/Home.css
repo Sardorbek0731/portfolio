@@ -29,7 +29,7 @@
 }
 .primaryText {
   font-size: 1.7rem;
-  color: var(--primary-color);
+  color: var(--primary-color-1);
   font-family: "Pacifico", sans-serif;
 }
 
@@ -40,7 +40,7 @@
   margin-bottom: 1.8rem;
 }
 .primaryText {
-  color: var(--primary-color);
+  color: var(--primary-color-1);
 }
 
 .homeTitle p {
@@ -70,12 +70,12 @@
   color: black;
 }
 .downloadCV {
-  background-color: var(--primary-color);
-  border: 2px solid var(--primary-color);
+  background-color: var(--primary-color-1);
+  border: 2px solid var(--primary-color-1);
 }
 .downloadCV:hover {
   background-color: white;
-  color: var(--primary-color);
+  color: var(--primary-color-1);
 }
 
 /* Hero Image */
@@ -87,7 +87,7 @@
   position: absolute;
   width: 8rem;
   height: 8rem;
-  background-color: rgb(255, 138, 35);
+  background-color: var(--primary-color-2);
   left: -1rem;
   top: -15%;
   z-index: -1;
@@ -112,7 +112,7 @@
   height: 0;
   border-left: 4rem solid transparent;
   border-right: 4rem solid transparent;
-  border-bottom: 6.8rem solid var(--primary-color);
+  border-bottom: 6.8rem solid var(--primary-color-1);
   left: 4rem;
   top: 86%;
   z-index: -1;
@@ -148,28 +148,6 @@
   }
 }
 
-.languages img {
-  position: absolute;
-  width: 4.5rem;
-  height: 4.5rem;
-}
-.languages img:first-child {
-  right: 15%;
-  top: -7%;
-}
-.languages img:nth-child(2) {
-  left: -10%;
-  bottom: 17%;
-}
-.languages img:nth-child(3) {
-  right: 10%;
-  bottom: 0;
-}
-.languages img:nth-child(4) {
-  right: -10%;
-  bottom: 45%;
-}
-
 /* Social Networks */
 .socialNetworks a {
   margin-right: 0.75rem;
@@ -195,12 +173,20 @@
   z-index: -1;
 }
 .bgBlur_1 {
-  background: radial-gradient(circle, #1e00ffcc 0%, rgba(255, 255, 255, 0) 80%);
+  background: radial-gradient(
+    circle,
+    var(--primary-color-1) 0%,
+    rgba(255, 255, 255, 0) 80%
+  );
   left: -5%;
   bottom: -25%;
 }
 .bgBlur_2 {
-  background: radial-gradient(circle, #ff7716cb 0%, rgba(255, 255, 255, 0) 80%);
+  background: radial-gradient(
+    circle,
+    var(--primary-color-2) 0%,
+    rgba(255, 255, 255, 0) 80%
+  );
   right: -5%;
   top: -5%;
 }
