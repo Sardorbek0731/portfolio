@@ -36,7 +36,7 @@ function Header() {
           <div className="language">
             <div className="languageValue flex">
               <img className="flagIcon" src={uzb} alt="UZB Language Icon" />
-              Uzbek
+              {"O'"}zbek
               <img
                 className="arrowIcon"
                 src={downArrow}
